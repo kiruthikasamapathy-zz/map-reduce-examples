@@ -1,5 +1,6 @@
-# Hadoop MapReduce Java template
+# Hadoop MapReduce
 
+Simple word count example
 
 ## Build the jar
 ```sh
@@ -26,15 +27,15 @@ hadoop jar mapreducer.jar au.com.data.wordscount.WordsCount wordcount/input word
 # Exercises
 
 ## Exercise 1
-AutoWorx is an automobile dealer who specializes selling and servicing 4 kinds of vehicles namely buses, trucks, cars and rickshaws. The company has a new sales boss who is interested in knowing how many vehicles of each type AutoWorx has sold till date. Your task is to write a Hadoop MapReduce program to generate this report.
+AutoWorx is an automobile dealer who specializes selling and servicing 4 kinds of Vehicle namely buses, trucks, cars and rickshaws. The company has a new sales boss who is interested in knowing how many Vehicle of each type AutoWorx has sold till date. Your task is to write a Hadoop MapReduce program to generate this report.
 
-* [Input](src/main/resources/VEHICLE_INFO) - List of vehicles with their type, registration number, date of purchase and owner
+* [Input](src/main/resources/VEHICLE_INFO) - List of Vehicle with their type, registration number, date of purchase and owner
 * Output - Vehicle type, Total count
 
 ## Exercise 2
-The new sales boss at AutoWorx now wants some insight on potential service opportunities that are associated with different types of vehicles. Your task is to determine all the repairs that are applicable for a vehicle along with their monetary values by writing a Hadoop Map Reduce program.
+The new sales boss at AutoWorx now wants some insight on potential service opportunities that are associated with different types of Vehicle. Your task is to determine all the repairs that are applicable for a vehicle along with their monetary values by writing a Hadoop Map Reduce program.
 Input Dataset
-* [List of vehicles with their type, registration number, date of purchase and owner](src/main/resources/VEHICLE_INFO)
+* [List of Vehicle with their type, registration number, date of purchase and owner](src/main/resources/VEHICLE_INFO)
 * [List of repair, vehicle type, currency and operation cost](src/main/resources/REPAIR_IN_DIFFERENT_CURRENCIES)
 
 ## Exercise 3
